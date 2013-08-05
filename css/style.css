@@ -4,9 +4,25 @@
     color: #B5B5B5;
     width: 700px;
     margin: auto;
+    line-height: 40px;
+
 }
 .home{
-
+float: left;
     display: inline-block;
+    padding: 20px;
+
+
+}
+.siteplo{
+    display: inline-block;
+ float: left;
+}
+.update{
+    float: left;
+    display: inline-block;
+padding-left: 500px;
+
+
 }
 
