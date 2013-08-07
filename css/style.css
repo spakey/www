@@ -2,27 +2,93 @@
     background:#1C1C1C;
     height: 40px;
     color: #B5B5B5;
-    width: 700px;
+    width: 900px;
     margin: auto;
     line-height: 40px;
 
+
 }
 .home{
-float: left;
     display: inline-block;
-padding-left: 200px;
-
+    float: left;
+padding-left: 20px;
+    text-decoration: none;
 
 }
+
+
+
 .siteplo{
     display: inline-block;
  float: left;
+    text-decoration: none;
 }
 .update{
+    padding-left: 20px;
     float: left;
-    display: inline-block;
-padding-left: 200px;
+    text-decoration: none;
+}
 
+.reviews{
+    padding-left: 20px;
+    float: left;
+    text-decoration: none;
+}
+.mentions{
+    padding-left: 20px;
+    float: left;
+}
+
+
+
+ul {
+    float: left;
+    width: 70px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 
 }
+li ul {
+    position: absolute;
+    display: none;
+    padding-left: 10px;
+  padding-top: 40px;
+}
+li a {
+    display: block;
+    text-decoration: none;
+    color: #B5B5B5;
+    background-color: #1C1C1C;
+    padding-left: 10px;
+}
+li a:hover {
+    color: #ffe;
+}
+li:hover ul {
+    display: block;
+}
+
+.campaigns{
+    display: inline-block;
+    float: left;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.bush{
+    display: inline-block;
+    float: left;
+    padding-left: 100px;
+    text-decoration: none; ;
+}
+.image{
+ padding-top: 6px;
+    display: inline-block;
+    float: left;
+    padding-left: 6px;
+}
+
+
+
+
 
