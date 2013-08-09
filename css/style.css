@@ -41,7 +41,7 @@ a:hover {
     float: left;
     text-decoration: none;
 }
-.sub-menu{
+.sub-menu-reviews{
     padding-left: 10px;
     float: left;
     text-decoration: none;
@@ -50,9 +50,7 @@ a:hover {
     padding-left: 10px;
     float: left;
 }
-.sub-menu_reviews{
-float: left;
-}
+
 
 
 
