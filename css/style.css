@@ -13,7 +13,7 @@
 .home{
     display: inline-block;
     float: left;
-padding-left: 20px;
+    padding-left: 10px;
     text-decoration: none;
 
 
@@ -26,25 +26,34 @@ a:hover {
 
 .siteplo{
     display: inline-block;
- float: left;
+    float: left;
     text-decoration: none;
     opacity: 0.7;
 }
 .update{
-    padding-left: 20px;
+    padding-left: 10px;
     float: left;
     text-decoration: none;
 }
 
 .reviews{
-    padding-left: 20px;
+    padding-left: 10px;
+    float: left;
+    text-decoration: none;
+}
+.sub-menu{
+    padding-left: 10px;
     float: left;
     text-decoration: none;
 }
 .mentions{
-    padding-left: 20px;
+    padding-left: 10px;
     float: left;
 }
+.sub-menu_reviews{
+float: left;
+}
+
 
 
 
@@ -54,19 +63,20 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    float: left;
 
 }
 li ul {
     position: absolute;
     display: none;
-    padding-left: 10px;
-  padding-top: 40px;
+
+
 }
 li a {
     display: block;
     text-decoration: none;
     color: #B5B5B5;
-    background-color: #1C1C1C;
+    background-color: #2a2a2a;
     padding-left: 10px;
 }
 li a:hover {
@@ -74,32 +84,36 @@ li a:hover {
 }
 li:hover ul {
     display: block;
+
 }
+
 
 .campaigns{
     display: inline-block;
     float: left;
-    padding-left: 30px;
+    padding-left: 10px;
     text-decoration: none;
 }
-.bush{
+.name{
     display: inline-block;
-    float: left;
-    padding-left: 100px;
+    float: right;
+    padding-right: 50px;
     text-decoration: none; ;
 }
 .image{
- padding-top: 6px;
+    padding-top: 6px;
     display: inline-block;
     float: left;
 
 
 }
-.rewiew{
- float: left;
- background: #ffffff;
- height: 20px;
-margin-top: 6px;
+.fon{
+    float: left;
+    background: #ffffff;
+    height: 20px;
+    margin-top: 10px;
+    text-align: center;
+
 }
 
 
