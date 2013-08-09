@@ -1,10 +1,12 @@
 .menu{
-    background:#1C1C1C;
+    background:#2a2a2a;
     height: 40px;
     color: #B5B5B5;
     width: 900px;
     margin: auto;
     line-height: 40px;
+    opacity: 1;
+
 
 
 }
@@ -14,6 +16,10 @@
 padding-left: 20px;
     text-decoration: none;
 
+
+}
+a:hover {
+    color: #ffe;
 }
 
 
@@ -22,6 +28,7 @@ padding-left: 20px;
     display: inline-block;
  float: left;
     text-decoration: none;
+    opacity: 0.7;
 }
 .update{
     padding-left: 20px;
@@ -43,7 +50,7 @@ padding-left: 20px;
 
 ul {
     float: left;
-    width: 70px;
+    width: 80px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -85,7 +92,14 @@ li:hover ul {
  padding-top: 6px;
     display: inline-block;
     float: left;
-    padding-left: 6px;
+
+
+}
+.rewiew{
+ float: left;
+ background: #ffffff;
+ height: 20px;
+margin-top: 6px;
 }
 
 
