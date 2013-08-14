@@ -1,120 +1,102 @@
-.menu{
-    background:#2a2a2a;
-    height: 40px;
-    color: #B5B5B5;
-    width: 900px;
-    margin: auto;
-    line-height: 40px;
-    opacity: 1;
-
-
-
+@import "reset.css";
+html{
+    height: 100%;
 }
-.home{
-    display: inline-block;
-    float: left;
-    padding-left: 10px;
+body{
+    background:#d8d8d8  ;
+    font-family: arial;
+    color:#4f5259 ;
+    min-height: 100%;
+    padding-top: 25px;
+    font-size: 14px;
+}
+p{
+    font-size: 14px;
+    color:#4f5259 ;
+}
+a{
     text-decoration: none;
-
-
-}
-a:hover {
-    color: #ffe;
+    outline: none;
+    color:#868686 ;
+    font-size: 14px;
 }
 
-
-
-.siteplo{
-    display: inline-block;
-    float: left;
-    text-decoration: none;
-    opacity: 0.7;
+a:hover{
+    text-decoration: underline;
+    outline: none;
+    color:#ffffff ;
+    font-size: 14px;
 }
-.update{
-    padding-left: 10px;
-    float: left;
-    text-decoration: none;
+code{
+    font-family: "Courier New";
+    color: #000;
 }
-
-.reviews{
-    padding-left: 10px;
-    float: left;
-    text-decoration: none;
+blockquote{
+    font-style: italic;
+    background: #ccc;
+    margin-left: 20px;
 }
-.sub-menu-reviews{
-    padding-left: 10px;
-    float: left;
-    text-decoration: none;
+#wrap{
+    width: 960px;
+    background: #ededed;
+    margin: 0,auto;
 }
-.mentions{
-    padding-left: 10px;
-    float: left;
+#header{
+    height: 205px;
 }
-
-
-
-
-
-ul {
-    float: left;
-    width: 80px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    float: left;
-
+#header_top{
+    height: 64px;
+    background: #1a1e27;
 }
-li ul {
-    position: absolute;
-    display: none;
-
-
+#header_bottom{
+height:141px ;
 }
-li a {
+#header ul{
+ float: left;
+    margin: 23px 244px 0 34px;
+}
+#header ul li{
+ float: left;
+ padding-left: 10px;
+}
+#header ul li a{
+height: 41px;
+display: block;
+    
+}
+#header ul li a:hover{
+    height: 41px;
     display: block;
-    text-decoration: none;
-    color: #B5B5B5;
-    background-color: #2a2a2a;
-    padding-left: 10px;
-}
-li a:hover {
-    color: #ffe;
-}
-li:hover ul {
-    display: block;
+text-decoration: none;
 
 }
-
-
-.campaigns{
-    display: inline-block;
-    float: left;
-    padding-left: 10px;
-    text-decoration: none;
-}
-.name{
-    display: inline-block;
-    float: right;
-    padding-right: 50px;
-    text-decoration: none; ;
-}
-.image{
-    padding-top: 6px;
-    display: inline-block;
-    float: left;
-
+#search{
+float: right;
+ margin: 14px 32px 0 0;
+ width: 191px;
+ height: 35px;
+background-image:url("images/");
 
 }
-.fon{
-    float: left;
-    background: #ffffff;
-    height: 20px;
-    margin-top: 10px;
-    text-align: center;
-
+.search_text{
+width: 137px;
+    padding: 6px 0 0 25px;
+  background: none;
+  border: none;
 }
-
-
-
-
-
+.go{
+    width: 15px;
+    padding: 6px 0 0 25px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#rss{
+  margin: 24px 15px 0 0;
+ float: right;
+}
+#rss span{
+  margin-right:7px ;
+  position: relative;
+    top: 5px;
+}
