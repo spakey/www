@@ -1,102 +1,129 @@
-@import "reset.css";
-html{
-    height: 100%;
+
+.header{
+ height: 41px;
+    background: #272727;
+    width: 999px;
+    margin: auto;
+    color: #777777;
 }
-body{
-    background:#d8d8d8  ;
-    font-family: arial;
-    color:#4f5259 ;
-    min-height: 100%;
-    padding-top: 25px;
-    font-size: 14px;
-}
-p{
-    font-size: 14px;
-    color:#4f5259 ;
-}
-a{
+a {
     text-decoration: none;
-    outline: none;
     color:#868686 ;
     font-size: 14px;
+    font-family: arial;
 }
-
 a:hover{
     text-decoration: underline;
-    outline: none;
     color:#ffffff ;
     font-size: 14px;
 }
-code{
-    font-family: "Courier New";
-    color: #000;
+.logo{
+float: left;
+    margin: 4px 6px 0 6px;
 }
-blockquote{
-    font-style: italic;
-    background: #ccc;
-    margin-left: 20px;
-}
-#wrap{
-    width: 960px;
-    background: #ededed;
-    margin: 0,auto;
-}
-#header{
-    height: 205px;
-}
-#header_top{
-    height: 64px;
-    background: #1a1e27;
-}
-#header_bottom{
-height:141px ;
-}
-#header ul{
+.siteplo{
  float: left;
-    margin: 23px 244px 0 34px;
+  margin: 10px 0 0 4px;
 }
-#header ul li{
- float: left;
- padding-left: 10px;
-}
-#header ul li a{
-height: 41px;
-display: block;
-    
-}
-#header ul li a:hover{
-    height: 41px;
-    display: block;
-text-decoration: none;
 
-}
-#search{
+
+.name{
 float: right;
- margin: 14px 32px 0 0;
- width: 191px;
- height: 35px;
-background-image:url("images/");
+margin: 12px 10px 0 0;
+}
+.bottom{
+ float: right;
+margin: 14px 10px 0 0;
 
 }
-.search_text{
-width: 137px;
-    padding: 6px 0 0 25px;
-  background: none;
-  border: none;
+.sub_menu{
+float: left;
+margin: 11px 0 0 20px;
 }
-.go{
-    width: 15px;
-    padding: 6px 0 0 25px;
-    background: none;
-    border: none;
-    cursor: pointer;
+ul {
+    width: 85px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
 }
-#rss{
-  margin: 24px 15px 0 0;
- float: right;
+
+li ul {
+    position: absolute;
+    display: none;
+padding-top: 4px;
+
 }
-#rss span{
-  margin-right:7px ;
-  position: relative;
-    top: 5px;
+ul li ul li a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color:#868686 ;
+
+    background: #272727;
+    border-bottom: none;
 }
+
+
+
+
+li:hover ul {
+    display: block;
+}
+.menu{
+ float: left;
+
+}
+.sub_menu1{
+    margin: 14px 0 0 30px; ;
+
+}
+
+
+.menu2{
+    float: left;
+
+}
+.sub_menu2{
+    margin: 14px 0 0 30px;
+}
+.bg13{
+background:#cccccc;
+    width: 14px;
+    height: 15px;
+ margin: 15px 0 0 0 ;
+padding-left: 1px;
+    float: left;
+    border-radius: 2px;
+    font-size: 13px;
+}
+.arrow{
+  padding-top: 11px;
+    float: left;
+}
+.bg_13{
+    background:#666666;
+    width: 14px;
+    height: 15px;
+    margin: 15px 0 0 5px ;
+    padding-left: 1px;
+    float: left;
+    border-radius: 2px;
+    font-size: 13px;
+    color: #282828;
+}
+.arrow2{
+    padding-top: 11px;
+float: left;
+
+}
+.sub{
+ float: left;
+    margin: 13px 0 0 20px;
+}
+
+
+
+
+
