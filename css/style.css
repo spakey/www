@@ -134,9 +134,15 @@ li:hover ul {
 }
 
 .left_panel {
-    ul { margin : 0;
+
+ul {
+    margin: 0;
     padding: 0;
-    li . accordion { list-style : none;
+
+li.accordion {
+    list-style: none;
 }
-}
-}
+
+    }
+
+    }
