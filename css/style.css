@@ -6,15 +6,15 @@
     color: #777777;
 }
 
-a {
+.header a {
     text-decoration: none;
     color: #868686;
     font-size: 14px;
     font-family: arial;
 }
 
-a:hover {
-    text-decoration: underline;
+.header a:hover {
+    text-decoration: none;
     color: #ffffff;
     font-size: 14px;
 }
@@ -26,7 +26,7 @@ a:hover {
 
 .siteplo {
     float: left;
-    margin: 10px 0 0 4px;
+    margin: 10px 69px 0 4px;
 }
 
 .name {
@@ -45,7 +45,7 @@ a:hover {
     margin: 11px 0 0 20px;
 }
 
-ul {
+.header ul {
     width: 85px;
     list-style: none;
     margin: 0;
@@ -54,14 +54,14 @@ ul {
     font-size: 14px;
 }
 
-li ul {
+.header li ul {
     position: absolute;
     display: none;
     padding-top: 4px;
 
 }
 
-ul li ul li a {
+.header ul li ul li a {
     display: block;
     padding: 5px;
     text-decoration: none;
@@ -71,7 +71,11 @@ ul li ul li a {
     border-bottom: none;
 }
 
-li:hover ul {
+.menu li:hover ul {
+    display: block;
+}
+
+.menu2 li:hover ul {
     display: block;
 }
 
@@ -133,16 +137,195 @@ li:hover ul {
     margin: 13px 0 0 20px;
 }
 
-.left_panel {
+.wrap {
+    background: #ebebeb;
+    width: 999px;
+    margin: auto;
+}
 
-ul {
-    margin: 0;
-    padding: 0;
-
-li.accordion {
+.left_menu {
+    display: block;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #666666;
+    background: #f2f2f2;
+    border-radius: 10px 10px 0 0;
+    margin: 14px 0 0 14px;
+    width: 120px;
+    height: 55px;
     list-style: none;
 }
 
-    }
+.left_panel a {
+    text-decoration: none;
+    color: #6f6f6f;
+}
 
-    }
+.left_panel a:hover {
+    text-decoration: none;
+}
+
+.left_menu3 a {
+    color: #2c3334;
+}
+
+.left_menu3 a:hover {
+    color: #76b310;
+}
+
+.accordion {
+    padding-top: 18px;
+    padding-left: 2px;
+}
+
+.im {
+    padding-top: 19px;
+    position: absolute;
+    margin-left: -25px;
+
+}
+
+.accordion ul {
+    background: #f2f2f2;
+    margin-top: 21px;
+    width: 120px;
+    margin-left: -42px;
+    list-style: none;
+
+}
+
+.accordion ul li a {
+    background: #f2f2f2;
+    line-height: 25px;
+    margin-left: -20px;
+
+}
+
+.accordion  a:hover {
+    text-decoration: none;
+    color: #76b310;
+
+}
+
+.accordion3  a:hover {
+    text-decoration: none;
+    color: #76b310;
+
+}
+
+.left_menu2 {
+    display: block;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #666666;
+    background: #f2f2f2;
+    margin: 76px 0 0 14px;
+    width: 120px;
+    height: 55px;
+    list-style: none;
+}
+
+.left_menu3 {
+    display: block;
+    font-family: arial;
+    font-size: 13px;
+    background: #fafafa;
+    margin: 76px 0 0 14px;
+    width: 120px;
+    height: 44px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.accordion2 {
+    padding-top: 14px;
+    margin-left: -25px;
+    color: #2c3334;
+    list-style: none;
+}
+
+.accordion2 ul {
+    background: #f2f2f2;
+    margin-top: 14px;
+    width: 120px;
+    margin-left: -15px;
+    list-style: none;
+
+}
+
+.accordion2 ul li a {
+    background: #f2f2f2;
+    line-height: 25px;
+    margin-left: -20px;
+
+}
+
+.accordion2  a:hover {
+    text-decoration: none;
+    color: #76b310;
+
+}
+
+.left_menu4 {
+    display: block;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #666666;
+    background: #f2f2f2;
+    margin: 76px 0 0 14px;
+    width: 120px;
+    height: 55px;
+    list-style: none;
+
+}
+
+.accordion3 {
+    float: left;
+    padding-top: 25px;
+    margin-left: 2px;
+}
+
+.accordion3 ul {
+    background: #f2f2f2;
+    margin-top: 14px;
+    width: 120px;
+    margin-left: -42px;
+    list-style: none;
+
+}
+
+.accordion3 ul li a {
+    background: #f2f2f2;
+    line-height: 25px;
+    margin-left: -20px;
+
+}
+
+.accordion3  a:hover {
+    text-decoration: none;
+    color: #76b310;
+
+}
+
+.im3 {
+    padding-top: 101px;
+    position: absolute;
+    padding-left: 27px;
+}
+
+.b13 {
+    background: #76b310;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-left: 89px;
+    margin-top: -105px;
+    font-size: 11px;
+    border-radius: 5px;
+    color: #ffffff;
+    padding-left: 2px;
+    padding-top: 2px;
+}
