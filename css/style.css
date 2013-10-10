@@ -11,6 +11,11 @@
 .name {
     font-size: 30px;
     text-align: center;
+
+}
+
+a {
+    color: orange;
 }
 
 .img_blue {
@@ -28,4 +33,6 @@
     padding-left: 50px;
 }
 
-
+.video {
+    text-align: center;
+}
